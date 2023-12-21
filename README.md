@@ -24,10 +24,10 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 If the installation was successful, you should be able to run the following command.
 
     $ node --version
-    v8.11.3
+    v18.14.2
 
     $ npm --version
-    6.1.0
+    9.5.0
 
 If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
 
@@ -43,7 +43,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Install
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
+    $ git clone https://github.com/iampawantripathi/node_curd.git
     $ cd PROJECT_TITLE
     $ yarn install
 
@@ -61,4 +61,4 @@ Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
 
 ## Simple build for production
 
-    $ yarn build# Node_Task
+    $ yarn build# node_curd

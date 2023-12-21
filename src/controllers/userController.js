@@ -61,7 +61,6 @@ class UserController {
             const { username, age, hobbies } = req.body;
 
             const newUser = {
-                _id: uuidv4(),
                 username,
                 age,
                 hobbies: hobbies || [],
@@ -72,7 +71,7 @@ class UserController {
             return RES(res, result, 201);
         } catch (error) {
             console.error(error);
-            return REE(res, error.message, 500);
+            return REE(res, error, 500);
         }
     }
 

@@ -7,12 +7,12 @@ const router = express.Router();
 
 
 
-router.get('/users/list', userController.getAllUsers);
+router.get('/api/users', userController.getAllUsers);
 
 router.get('/api/users/:userId', userController.getUserById);
 
 router.post(
-    '/user/create',
+    '/api/users',
 
     celebrate({
         [Segments.BODY]: {
@@ -23,9 +23,9 @@ router.post(
     }),
     userController.createUser);
 
-router.put('/update/users/:userId', userController.updateUser);
+router.put('/api/users/:userId', userController.updateUser);
 
-router.delete('/delete/users/:userId', userController.deleteUser);
+router.delete('/api/users/:userId', userController.deleteUser);
 
 
 
