@@ -26,8 +26,7 @@
     "fs": "^0.0.1-security",
     "mongodb": "^5.2.0",
     "mongoose": "^7.0.3",
-    "os": "^0.1.2",
-    "uuid": "^9.0.1"
+    "os": "^0.1.2"
   },
   "devDependencies": {
     "@types/sequelize": "^4.28.14",

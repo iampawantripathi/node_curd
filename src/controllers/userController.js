@@ -1,6 +1,3 @@
-const { v4: uuidv4 } = require('uuid');
-
-
 const { RES, REE } = require('../services/service.js');
 const User = require('../models/mongodb/User.model.js');
 
